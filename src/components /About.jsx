@@ -35,7 +35,7 @@ const About = () => {
 
         <div className="flex justify-center items-center">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZGrrrnXm5BRY4j8iJaCQ7GNhzEvf9Lw5dw&s"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxwXzJPUqr_4HCGrEvuKYFCzvs6MVyThyzA&s"
             alt="classroom illustration"
             className="max-w-full h-auto rounded-lg shadow-lg"
           />
