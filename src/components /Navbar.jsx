@@ -44,22 +44,22 @@ const Navbar = () => {
         >
           <ul className="flex flex-col md:flex-row items-center">
             <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/Home" className="text-gray-300 hover:text-white">
+              <NavLink to="/Home" className="text-gray-300 hover:text-red-600">
                 Home
               </NavLink>
             </li>
             <div className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/about" className="text-gray-300 hover:text-white">
+              <NavLink to="/about" className="text-gray-300 hover:text-red-600 transition-all">
                 About
               </NavLink>
             </div>
             <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/Roadmap" className="text-gray-300 hover:text-white">
+              <NavLink to="/Roadmap" className="text-gray-300 hover:text-red-600">
                 RoadMap
               </NavLink>
             </li>
             <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/contact" className="text-gray-300 hover:text-white">
+              <NavLink to="/contact" className="text-gray-300 hover:text-red-600">
                 Contact Me
               </NavLink>
             </li>
@@ -67,6 +67,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
   );
 };
 

@@ -25,9 +25,12 @@ const Home = () => {
           <p className="text-xl mb-6 text-white">
             Crafting engaging and visually stunning web experiences.
           </p>
-          <button className="bg-sky-300 text-gray-900 px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 ease-in-out duration-100 group">
-            Explore My ...
+          <a href="https://drive.google.com/drive/folders/12bZL02xZazGo0x6Gjb_QdAyyo51igmJJ?usp=sharing">
+          <button
+           className="bg-sky-300 text-gray-900 px-6 py-3 rounded-full text-lg font-semibold hover:scale-110 ease-in-out duration-100 group">
+            Explore Me ...
           </button>
+          </a>
           <div className="mt-8 flex space-x-4">
             <a href="https://www.linkedin.com/in/harsh-sharma-8b4a0828b" className="text-blue-600 hover:text-white">
               <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
