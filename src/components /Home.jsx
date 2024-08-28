@@ -13,7 +13,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 mb-8 md:mb-0">
           <img
-            src="Harsh.jpeg"
+            src="Harsh.png"
             alt="Profile Picture"
             className="rounded-full w-64 h-64 object-cover mx-auto border-4 border-white"
           />
