@@ -6,8 +6,8 @@ const Home = () => {
 
   return (
     <div
-    className="h-screen bg-cover bg-center flex items-center justify-center"
-    style={{ backgroundImage: `url('https://img.freepik.com/premium-photo/3d-vector-illustration-web-dev-design-with-laptop-phone-coding-tools_1251065-6864.jpg')` }}
+    className="h-screen bg-gradient-to-br from-blue-500 to-white text-white bg-center flex items-center justify-center"
+    // style={{ backgroundImage: `url('https://img.freepik.com/premium-photo/3d-vector-illustration-web-dev-design-with-laptop-phone-coding-tools_1251065-6864.jpg')` }}
   >
 
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
