@@ -13,7 +13,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/3 mb-8 md:mb-0">
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQGZXJrR4CkPoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1722181486081?e=1730332800&v=beta&t=OCovvYqm1iiD42IqKwr9tq-hmwHopF5r4CSfrE34aOc"
+            src="https://media.licdn.com/dms/image/v2/D4E03AQEyCwNoosAnAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1725090008798?e=1730332800&v=beta&t=zG7JFsU-0aTUm9FVNp7IRQVvBAzXyyQuTth8v3FXdFc"
             alt="Profile Picture"
             className="rounded-full w-64 h-64 object-cover mx-auto border-4 border-white"
           />
