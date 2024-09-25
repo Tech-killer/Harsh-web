@@ -1,12 +1,14 @@
-import React from "react";
-import { NavLink, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll'; // Import react-scroll for smooth scrolling
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <Link className="text-white text-2xl font-bold"> Harsh's Web.
+        <Link to="home" smooth={true} duration={500} className="text-white text-2xl font-bold cursor-pointer">
+          Harsh's Web.
         </Link>
 
         <div className="md:hidden">
@@ -39,35 +41,52 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div
-          className={`${isOpen ? "block" : "hidden"} md:block w-full md:w-auto`}
-        >
+        <div className={`${isOpen ? "block" : "hidden"} md:block w-full md:w-auto`}>
           <ul className="flex flex-col md:flex-row items-center">
             <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/Home" className="text-gray-300 hover:text-red-600">
+              <Link
+                to="home"
+                smooth={true}
+                duration={500}
+                className="text-gray-300 hover:text-red-600 cursor-pointer"
+              >
                 Home
-              </NavLink>
+              </Link>
             </li>
-            <div className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/about" className="text-gray-300 hover:text-red-600 transition-all">
+            <li className="md:ml-4 mt-2 md:mt-0">
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="text-gray-300 hover:text-red-600 cursor-pointer"
+              >
                 About
-              </NavLink>
-            </div>
-            <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/Roadmap" className="text-gray-300 hover:text-red-600">
-                RoadMap
-              </NavLink>
+              </Link>
             </li>
             <li className="md:ml-4 mt-2 md:mt-0">
-              <NavLink to="/contact" className="text-gray-300 hover:text-red-600">
+              <Link
+                to="roadmap"
+                smooth={true}
+                duration={500}
+                className="text-gray-300 hover:text-red-600 cursor-pointer"
+              >
+                Roadmap
+              </Link>
+            </li>
+            <li className="md:ml-4 mt-2 md:mt-0">
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="text-gray-300 hover:text-red-600 cursor-pointer"
+              >
                 Contact Me
-              </NavLink>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
   );
 };
 
